@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="347dp"
+    android:layout_height="184dp"
+    android:background="#F2F2F2"
+    android:layout_marginBottom="5dp">
+
+    <TextView
+        android:id="@+id/textView_hotel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:lineHeight="18dp"
+        android:text="Capsicum Hotel"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:lineHeight="13.5dp"
+        android:text="October 21,11:04 AM"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="9dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:src="@drawable/line_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_hotel"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView_food1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="@font/poppins_medium"
+        android:lineHeight="18dp"
+        android:text="1 * Garlic Bread"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView_rate1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginLeft="176dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_medium"
+        android:lineHeight="13.5dp"
+        android:text="\u20B9300.00"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="9dp"
+        app:layout_constraintStart_toEndOf="@+id/textView_food1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textview_food2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="3dp"
+        android:fontFamily="@font/poppins_medium"
+        android:lineHeight="18dp"
+        android:text="1 * Dal Makhni"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_food1" />
+
+    <TextView
+        android:id="@+id/textView_rate2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:fontFamily="@font/poppins_medium"
+        android:lineHeight="13.5dp"
+        android:paddingBottom="3dp"
+        android:text="\u20B9200.00"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.92"
+        app:layout_constraintStart_toEndOf="@+id/textview_food2"
+        app:layout_constraintTop_toBottomOf="@+id/textView_rate1" />
+
+    <TextView
+        android:id="@+id/textView_bill"
+        android:layout_width="83dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FFF3AD"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Total Bill: \u20B9300.00"
+        android:textColor="#956B00"
+        android:textSize="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview_food2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="115dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_bg"
+        android:backgroundTint="#FFF8D2"
+        android:text="Reorder"
+        android:textColor="#D89C00"
+        android:textSize="10dp"
+        android:textFontWeight="500"
+        android:lineHeight="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_bg"
+        android:text="Rate Dish"
+        android:textSize="10dp"
+        android:lineHeight="14dp"
+        android:textFontWeight="500"
+        android:textColor="#D89C00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toEndOf="@+id/button3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

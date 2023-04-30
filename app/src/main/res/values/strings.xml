@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Swaad </string>
+    <string name="Hyper_link1">Forgot Password?</string>
+    <string name="Hyper_link2">New here <a href="">Sign up</a> </string>
+    <string name="Hyper_link3">By signing up you agree to our<a href="">Terms&amp;conditions</a> </string>
+    <string name="Hyper_link4">Already have an Account?  <a href="">Log in</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="heaven_s_food">Heaven\'s Food</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+</resources>

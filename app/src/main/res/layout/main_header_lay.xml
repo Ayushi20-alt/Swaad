@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="126dp"
+    android:orientation="horizontal"
+    android:background="#FFF3AD"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="53.5dp"
+        android:layout_height="53.5dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="104dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/account"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="114dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins_medium"
+        android:lineHeight="21dp"
+        android:text="Manish Yadav"
+        android:textColor="@color/black"
+        android:textFontWeight="500"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="94dp"
+        android:layout_height="13dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="20dp"
+        android:text="manish@gmail.com"
+        android:textSize="9dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:lineHeight="14dp"
+        android:textFontWeight="500"
+        app:layout_constraintStart_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+</androidx.constraintlayout.widget.ConstraintLayout>

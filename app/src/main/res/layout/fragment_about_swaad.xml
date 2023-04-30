@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AboutSwaad">
+
+   <TextView
+       android:id="@+id/textView20"
+       android:layout_width="319dp"
+       android:layout_height="141dp"
+       android:layout_marginTop="30dp"
+       android:fontFamily="@font/poppins_semibold"
+       android:text="0% Hype.100% Hygeine"
+       android:textColor="@color/black"
+       android:textFontWeight="500"
+       android:textSize="36dp"
+       android:textStyle="bold"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView21"
+       android:layout_width="319dp"
+       android:layout_height="141dp"
+       android:fontFamily="@font/poppins_medium"
+       android:text="Swaad doesn’t sugarcoat or add artificial flavours to your meal.it tells you exactly what you are eating so that everything is transparent and above board"
+       android:textColor="@color/black"
+       android:textFontWeight="500"
+       android:textSize="16sp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="16dp"
+       android:src="@drawable/aboutswaad"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView21"
+       app:layout_constraintVertical_bias="0.083" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

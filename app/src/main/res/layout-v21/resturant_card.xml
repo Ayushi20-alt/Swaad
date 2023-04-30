@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="175dp"
+    android:layout_height="241dp"
+    android:orientation="vertical"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp"
+    app:cardCornerRadius="8dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/resturant_card"
+        android:layout_width="171dp"
+
+
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageRest"
+            android:layout_width="172dp"
+            android:layout_height="135dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rest1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:src="@drawable/heart_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.132" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="136dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/textResturant"
+            android:layout_width="103dp"
+            android:layout_height="21dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="6dp"
+            android:backgroundTint="@color/white"
+            android:text="@string/heaven_s_food"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="96dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textResturant"
+            app:layout_constraintVertical_bias="0.0">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="36dp"
+                android:layout_height="14dp"
+                android:background="@drawable/button_bg"
+                android:backgroundTint="#FFD243"
+                android:drawableLeft="@drawable/star_icon"
+                android:drawablePadding="5dp"
+                android:lineHeight="15dp"
+                android:paddingLeft="2dp"
+                android:text="4.5"
+                android:textColor="@color/white"
+                android:textFontWeight="500"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:lineHeight="16.5dp"
+                android:text="25-30 Min"
+                android:textColor="#999999"
+                android:textFontWeight="500"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineHeight="16.5dp"
+                android:text="\u0024\u0024\u0024"
+                android:textFontWeight="500"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineHeight="15dp"
+                android:text="122 RDC,Ghaziabad"
+                android:textFontWeight="400"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
